@@ -6,7 +6,9 @@ pipeline {
     dockerImage = ""
   }
 
-  agent any
+  agent {
+        docker { image 'joao29a/jnlp-slave-alpine-docker' }
+  }
 
   stages {
     stage('Checkout Source') {

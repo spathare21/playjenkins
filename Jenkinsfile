@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    registry = "sunitparekh/playjenkins"
+    registry = "spathare21/playjenkins"
     registryCredential = 'dockerhub'
     dockerImage = ""
   }
@@ -11,7 +11,7 @@ pipeline {
   stages {
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/sunitparekh/playjenkins.git'
+        git 'https://github.com/spathare21/playjenkins'
       }
     }
 

@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: spathare21/playjenkins:latest
+      - image: harbor.workshop.tw:30002/demo/playjenkins:latest
         imagePullPolicy: Always
         name: myweb
 ---

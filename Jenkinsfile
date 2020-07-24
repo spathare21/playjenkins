@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    registry = "spathare21/playjenkins"
+    registry = "harbor.workshop.tw:30002/demo/playjenkins:latest"
     registryCredential = 'dockerhub'
     dockerImage = ""
   }

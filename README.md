@@ -6,7 +6,7 @@ Setup k8s-Jenkins CI pipeline for project using
 -  Jenkins as CI
 -  K8s cluster to deploy project/service
 
-<img src="resource/Jenkins_CI_Exercise.png"/>
+<img src="resources/Jenkins_CI_Exercise.png"/>
 
 
 ## Clone following repo 

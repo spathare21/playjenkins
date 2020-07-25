@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    registry = "harbor.workshop.tw:30002/demo/playjenkins"
+    registry = "harbor.workshop.tw:30002/workshop"
     registryCredential = 'dockerhub'
     dockerImage = ""
   }
@@ -26,7 +26,7 @@ pipeline {
     stage('Push Image') {
       steps{
         script {
-          docker.withRegistry( "", registryCredential ) {
+          docker.withRegistry( "http://harbor.workshop.tw:30002/", registryCredential ) {
             dockerImage.push()
           }
         }

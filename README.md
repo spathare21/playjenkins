@@ -1,8 +1,14 @@
 # k8s-jenkins
 
-Setup Jenkins CI pipeline for service using Harbor as registry and deploy it to your k8s cluster
+Setup k8s-Jenkins CI pipeline for project using
+-  Harbor as registry
+-  Github as Version Control
+-  Jenkins as CI
+-  K8s cluster to deploy project/service
 
-## Clone this repo 
+## Clone following repo 
+
+```git clone https://github.com/spathare21/playjenkins.git```
 
 ## Setup Harbor 
 
